@@ -1,0 +1,33 @@
+{
+  "name": "sxgeo-node",
+  "version": "0.0.1",
+  "description": "Интерфейс для работы с базой данных Sypex Geo.",
+  "type": "module",
+  "main": "dist/sxgeo.js",
+  "types": "dist/sxgeo.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "node test/test.js",
+    "dev": "npm run build && npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryhux/sxgeo-node.git"
+  },
+  "keywords": [
+    "sxgeo",
+    "sypexgeo",
+    "geolocation",
+    "ip"
+  ],
+  "author": "shitair",
+  "bugs": {
+    "url": "https://github.com/ryhux/sxgeo-node/issues"
+  },
+  "homepage": "https://github.com/ryhux/sxgeo-node#readme",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3"
+  }
+}
