@@ -19,7 +19,7 @@ npm install sxgeo-node
 ```javascript
 import SxGeo from "sxgeo-node";
 
-const sxgeo = new SxGeo('GeoCity.dat');
+const sxgeo = new SxGeo('SxGeoCity.dat');
 
 const result = sxgeo.getCityFull('1.1.1.1');
 
