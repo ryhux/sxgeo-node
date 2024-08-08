@@ -1,8 +1,8 @@
 {
   "name": "sxgeo-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Интерфейс для работы с базой данных Sypex Geo.",
-  "type": "module",
+  "type": "commonjs",
   "main": "dist/sxgeo.js",
   "types": "dist/sxgeo.d.ts",
   "scripts": {
